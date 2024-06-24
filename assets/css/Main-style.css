@@ -1,0 +1,64 @@
+/* !!Import */
+
+/* !!Header Font */
+@font-face {
+  font-family: "Peralta";
+  src: url("../font/Peralta-Regular.woff2") format("woff2"),
+    url("../font/Peralta-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* !!Body Font */
+@font-face {
+  font-family: "CherrySwashBold";
+  src: url("../font/CherrySwashBold.eot");
+  src: url("../font/CherrySwashBold.eot") format("embedded-opentype"),
+    url("../font/CherrySwashBold.woff2") format("woff2"),
+    url("../font/CherrySwashBold.woff") format("woff"),
+    url("../font/CherrySwashBold.ttf") format("truetype"),
+    url("../font/CherrySwashBold.svg#CherrySwashBold") format("svg");
+}
+
+/* !!Body Font */
+@font-face {
+  font-family: "CherrySwashRegular";
+  src: url("../font/CherrySwashRegular.eot");
+  src: url("../font/CherrySwashRegular.eot") format("embedded-opentype"),
+    url("../font/CherrySwashRegular.woff2") format("woff2"),
+    url("../font/CherrySwashRegular.woff") format("woff"),
+    url("../font/CherrySwashRegular.ttf") format("truetype"),
+    url("../font/CherrySwashRegular.svg#CherrySwashRegular") format("svg");
+}
+
+/* !!Italic Body Font */
+@font-face {
+  font-family: "Padyakke Expanded One";
+  src: url("../font/PadyakkeExpandedOne-Regular.woff2") format("woff2"),
+    url("../font/PadyakkeExpandedOne-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* !!Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* !!Html */
+html {
+  font-size: 62.5%;
+}
+
+html {
+  background: url(../img/) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
