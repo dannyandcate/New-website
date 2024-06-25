@@ -1,5 +1,18 @@
 /* !!Import */
 
+/* !!Root */
+:root {
+  --light-brown-background: #fff3e2;
+  --light-brown-text: #632b2b;
+  --light-brown-faded: #be9f95;
+  --brown-background: #ffd4a9;
+  --brown-text: #632b2b;
+  --brown-faded: #ffddba;
+  --light-red-background: #ffc2b4;
+  --light-red-text: #632b2b;
+  --light-red-faded: #ffe5d5;
+}
+
 /* !!Header Font */
 @font-face {
   font-family: "Peralta";
