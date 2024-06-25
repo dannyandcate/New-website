@@ -23,7 +23,7 @@
   font-display: swap;
 }
 
-/* !!Body Font */
+/* !!Body Font Bold */
 @font-face {
   font-family: "CherrySwashBold";
   src: url("../font/CherrySwashBold.eot");
@@ -63,15 +63,41 @@
   text-decoration: none;
 }
 
-/* !!Html */
+/* !!Html is equal to = 10px Later use Rem */
 html {
   font-size: 62.5%;
 }
 
+/* !!This is only if you want a background image */
 html {
   background: url(../img/) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+body {
+  font-family: "CherrySwashRegular";
+  background: var(--light-red-background);
+  color: var(--light-red-text);
+}
+
+i,
+em {
+  font-family: "Padyakke Expanded One";
+}
+
+b,
+strong {
+  font-family: "CherrySwashBold";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Peralta";
 }
